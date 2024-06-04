@@ -45,7 +45,7 @@ For example, to read a file's content, count the number of lines, and store the 
 $ cat output.txt | wc -l > line_count
 ```
 
-To read a file's contents, find a specific keyword, count the number of lines where the keyword appears, and store the output in a new file:
+To read a file's contents, find a specific keyword (say <i>mysh</i>, count the number of lines where the keyword appears, and store the output in a new file:
 ```sh
 $ cat output.txt | grep -i mysh | wc -l > grepped_line_count
 ```
